@@ -20,9 +20,5 @@ module.exports = app => {
     return {
         authenticate: () => passport.authenticate('jwt', {session: false})
     }
-<<<<<<< HEAD
 }
 
-=======
-}
->>>>>>> 270f86daf2c91422aa5a3b1c77ebf9927f28c790
